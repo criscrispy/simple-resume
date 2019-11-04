@@ -18,6 +18,11 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/fontawesome.css" integrity="sha384-NnhYAEceBbm5rQuNvCv6o4iIoPZlkaWfvuXVh4XkRNvHWKgu/Mk2nEjFZpPQdwiz" crossorigin="anonymous"> -->
     <script src="https://kit.fontawesome.com/73251abeca.js"></script>
 
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <title>Christian Addy - Resume</title>
 </head>
 <body>
@@ -30,119 +35,191 @@
       </div>
     <!-- </nav> -->
   </header>
-  <section class="container border border-primary my-1 rounded">
-
+  <section class="container my-1">
     <!-- Row 1 -->
-      <div class="row">
+      <div class="row bg-info rounded">
         <!-- Item 1 -->
-        <div class="col-md-8 my-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Personal Data</h5>
-              <p class="mb-1"><span class="text-info">Nationality: </span><span class="second-text">Ghanaian</span></p>
-              <p class="mb-1"><span class="text-info">Languages: </span><span class="second-text">English (Native/Official), Russian (Intermediate/Conversational),</span></p>
-              <p class="mb-1"><span class="text-info invisible">Languages: </span><span class="second-text">& Asante (Native/Local), French (Basic)</span></p>
-              <p class="mb-1"><span class="text-info">Date of Birth: </span><span class="second-text">21st October,1991</span></p>
-              <p class="mb-1"><span class="text-info">Phone: </span><span class="second-text">+358 41 7519139</span></p>
-              <p class="mb-1"><span class="text-info">Email: </span><span class="second-text">jlcaddy4@gmail.com</span></p>
-              <p class="mb-1 text-info">LinkedIn: <a href="https://www.linkedin.com/in/christian-crosby-addy-b1341382" class="text-secondary">https://www.linkedin.com/in/christian-crosby-addy-b1341382/</a></p>
+          <div class="col-md-4 order-md-2 mt-2 align-self-center">
+            <!-- <div class="card bg-"> -->
+              <!-- <img src="Profile-pic-2.jpg" class="rounded-circle img-fluid mx-auto d-block" alt="Responsive image" id="main-profile-pic"> -->
+              <img src="Linkedin profile pic.jpg" class="rounded-circle mx-auto d-block align-self-center" alt="Responsive image">
+            <!-- </div> -->
+          </div>
+          <!--End of Item 1  -->
 
-              <!-- <p class="text-danger">Using  below</p> -->
+          <!-- Item 2 -->
+          <!--Using paragraphs and spans-->
+          <div class="col-md-8 order-md-1 p-1">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Personal Data</h5>
+                <!-- <h5 class="card-title">Personal Data</h5>
+                <p class="mb-1"><span class="text-info">Nationality: </span><span class="second-text">Ghanaian</span></p>
+                <p class="mb-1"><span class="text-info">Languages: </span><span class="second-text">English (Native/Official), Russian (Intermediate/Conversational),</span></p>
+                <p class="mb-1"><span class="text-info invisible">Languages: </span><span class="second-text">& Asante (Native/Local), French (Basic)</span></p>
+                <p class="mb-1"><span class="text-info">Date of Birth: </span><span class="second-text">21st October,1991</span></p>
+                <p class="mb-1"><span class="text-info">Phone: </span><span class="second-text">+358 41 7519139</span></p>
+                <p class="mb-1"><span class="text-info">Email: </span><span class="second-text">jlcaddy4@gmail.com</span></p>
+                <p class="mb-1 text-info">LinkedIn: <a href="https://www.linkedin.com/in/christian-crosby-addy-b1341382" class="text-secondary">https://www.linkedin.com/in/christian-crosby-addy-b1341382/</a></p> -->
 
-              <table>
-                <tr>
-                  <td class="text-info">Nationality: </td>
-                  <td>Ghanaian</td>
-                </tr>
-                <tr>
-                  <td class="d-flex align-items-start text-info">Languages:</td>
-                  <td>English (Native/Official), Russian (Intermediate/Conversational), & Asante (Native/Local), French (Basic)</td>
-                </tr>
-                <tr>
-                  <td class="text-info"> Date of Birth:</td>
-                  <td class="d-inline">21st October,1991</td>
-                </tr>
-                <tr>
-                  <td class="text-info">Phone:</td>
-                  <td>+358 41 7519139</td>
-                </tr>
-                <tr>
-                  <td class="text-info">Email:</td>
-                  <td><a href = "mailto: jlcaddy4@gmail.com">jlcaddy4@gmail.com</a></td>
-                </tr>
-                <tr>
-                  <td class="text-info">LinkedIn:</td>
-                  <td><a href="https://www.linkedin.com/in/christian-crosby-addy-b1341382">https://www.linkedin.com/in/christian-crosby-addy-b1341382/</a></td>
-                </tr>
-            </table>
+                <!--Using tables below-->
+
+                <table>
+                  <tr>
+                    <td class="text-info">Name:</td>
+                    <td>Christian Crosby Addy</td>
+                  </tr>
+                  <tr>
+                    <td class="text-info">Nationality:</td>
+                    <td>Ghanaian</td>
+                  </tr>
+                  <tr>
+                    <td class="d-flex align-items-start text-info">Languages:</td>
+                    <td>English (Native/Official), Russian (Intermediate/Conversational), <br> Asante (Native/Local), French (Basic)</td>
+                  </tr>
+                  <tr>
+                    <td class="text-info"> Date of Birth:</td>
+                    <td class="align-items-center">21st October,1991</td>
+                  </tr>
+                  <tr>
+                    <td class="text-info">Phone:</td>
+                    <td>+358 41 7519139</td>
+                  </tr>
+                  <tr>
+                    <td class="text-info">Email:</td>
+                    <td><a href = "mailto: jlcaddy4@gmail.com">jlcaddy4@gmail.com</a></td>
+                  </tr>
+                  <tr>
+                    <td class="text-info">LinkedIn:</td>
+                    <td><a href="https://www.linkedin.com/in/christian-crosby-addy-b1341382">https://www.linkedin.com/in/christian-crosby-addy-b1341382/</a></td>
+                  </tr>
+              </table>
+              </div>
             </div>
           </div>
+          <!-- End of Item 2 -->
         </div>
-        <!--  -->
-
-        <!-- Item 2 -->
-        <div class="col-md-4 my-2 d-flex align-items-center justify-content-center">
-          <div class="card rounded-circle">
-            <img src="Linkedin profile pic.jpg" class="card-img-top rounded-circle img-fluid" alt="Responsive image">
-          </div>
-        </div>
-        <!--  -->
-      </div>
         <!-- End of Row 1 -->
 
         <!-- Row 2 -->
-      <div class="row">
-        <!-- Item 1 -->
-          <div class="col-md-8 my-2">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text second-text">Some quick example text to build on the card <br> title and make up the bulk of the card's <br>content.</p>
-                <a href="#" class="btn btn-outline-info">First link</a>
-                <a href="#" class="btn btn-outline-dark"><i class="far fa-heart fa-lg"></i></a>
+      <div class="bg-light border border-info py-1 px-1 my-2 rounded">
+        <h5>Work Experience</h5>
+          <div class="row rounded bg-danger m-2">
+            <!-- Item 1 -->
+              <div class="col-md-8 col-sm-12 p-1">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a></h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Sept. 2018 - April 2019</h6>
+                    <p>My responsibilities included:</p>
+                    <ul>
+                      <li>Providing technical support for various products and technologies <br> by solving issues reported by customers in our ticketing system (Zendesk, SalesForce, JIRA)</li>
+                      <li>Conducting remote/troubleshooting sessions with customers.</li>
+                      <li>Phone support(Aircall)</li>
+                      <li>Log analyses</li>
+                      <li>Knowledge management/Technical article writing.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        <!--  -->
+              <!-- End of Item 1 -->
 
-            <!-- Item 2 -->
-          <div class="col-md-4 my-2">
-            <div class="card">
-              <img src="code.jpg" class="card-img-top" alt="...">
+              <!-- Item 2 -->
+              <div class="col-md-4 mt-1 ml-0 pl-1 pr-1 align-self-center">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                  <!-- Indicators at the bottom of the screen -->
+                  <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ul>
+
+                  <!-- The slideshow -->
+                  <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                      <img src="code.jpg" alt="code">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Profile-pic-2.jpg" alt="profile-pic-2" class="rounded mx-auto d-block" id="Profile-pic-2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="code.jpg" alt="code2">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+
               </div>
+              <!--End of Item 2  -->
             </div>
-            <!--  -->
-      </div>
-        <!-- End of Row 2 -->
+
+            <div class="row rounded bg-success m-2">
+              <!-- Item 1 -->
+                <div class="col-md-8 col-sm-12 p-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a></h6>
+                      <h6 class="card-subtitle mb-2 text-muted">Sept. 2018 - April 2019</h6>
+                      <p>My responsibilities included:</p>
+                      <ul>
+                        <li>Providing technical support for various products and technologies <br> by solving issues reported by customers in our ticketing system (Zendesk, SalesForce, JIRA)</li>
+                        <li>Conducting remote/troubleshooting sessions with customers.</li>
+                        <li>Phone support(Aircall)</li>
+                        <li>Log analyses</li>
+                        <li>Knowledge management/Technical article writing.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Item 1 -->
+
+                <!-- Item 2 -->
+                <div class="col-md-4 mt-1 ml-0 pl-1 pr-1 align-self-center">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators at the bottom of the screen -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner rounded">
+                      <div class="carousel-item active">
+                        <img src="code.jpg" alt="code">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Profile-pic-2.jpg" alt="profile-pic-2" class="rounded mx-auto d-block" id="Profile-pic-2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="code.jpg" alt="code2">
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+
+                </div>
+                <!--End of Item 2  -->
+          </div>
+    <!-- End of Row 3 -->
 
         <!-- Row 3 -->
-      <div class="row">
-        <!-- Item 1 -->
-          <div class="col-md-8 my-2">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text second-text">Some quick example text to build on the card <br> title and make up the bulk of the card's <br>content.</p>
-                <a href="#" class="btn btn-outline-info">First link</a>
-                <a href="#" class="btn btn-outline-dark"><i class="far fa-heart fa-lg"></i></a>
-              </div>
-            </div>
-          </div>
-        <!--  -->
-
-            <!-- Item 2 -->
-          <div class="col-md-4 my-2">
-            <div class="card">
-              <img src="code.jpg" class="card-img-top" alt="...">
-              </div>
-            </div>
-            <!--  -->
-      </div>
-        <!-- End of Row 3 -->
-
-        <!-- Row 4 -->
       <div class="row">
         <!-- Item 1 -->
           <div class="col-md-8 my-2">
