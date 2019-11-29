@@ -24,3 +24,58 @@ a.navbar-brand {
   height:14em;
   size:round;
 } */
+
+/* Personal info shadow inclded as a bootstrap class - shadow in html */
+
+/*.css-shadow1 - used for about-me section div only --
+: Career and journey so far  */
+.css-shadow-1 {
+  -ms-transform: scale(1) ; /* IE 9 */
+  -webkit-transform: scale(1) ; /* Safari 3-8 */
+  transform: scale(1) ;
+  transition: transform .5s ease-out;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1),
+  0 3px 15px 0 rgba(0, 0, 0, 0.11);
+}
+
+.css-shadow-1:hover{
+  -ms-transform: scale(1.04) ; /* IE 9 */
+  -webkit-transform: scale(1.04) ; /* Safari 3-8 */
+  transform: scale(1.04) ;
+  transition: transform .5s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*.css-shadow-2 - used for parent divs such as work experience, education */
+.css-shadow-2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*.css-shadow-3 - used for child divs in the work experience, education */
+.css-shadow-3:hover{
+  -ms-transform: scale(1.01) ; /* IE 9 */
+  -webkit-transform: scale(1.01) ; /* Safari 3-8 */
+  transform: scale(1.01) ;
+  transition: transform .5s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.css-shadow-3 {
+  -ms-transform: scale(1) ; /* IE 9 */
+  -webkit-transform: scale(1) ; /* Safari 3-8 */
+  transform: scale(1) ;
+  transition: transform .5s ease-out;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1),
+  0 3px 15px 0 rgba(0, 0, 0, 0.11);
+}
+
+
+
+/* #education{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
