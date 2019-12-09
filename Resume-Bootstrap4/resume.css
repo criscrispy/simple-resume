@@ -58,9 +58,41 @@ ul {
   0 3px 15px 0 rgba(0, 0, 0, 0.11);
 }
 
+/* Volunteer experience */
+.volun-ex-item {
+  background-color: rgba(255,228,181, 0.6) /*MOCCASIN*/
+}
 
 
-/* #education{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-  0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
+/* Work experience */
+.work-ex-item {
+  /* background-color: rgb(152,251,152) /*PALEGREEN*/
+  background-color: rgba(50,205,50,0.9) /*LIMEGREEN*/
+}
+
+/* Education */
+.education-item {
+  background-color: rgba(178,34,34, 0.6) /*FIREBRICK*/
+}
+
+/* Projects */
+.projects
+{
+  border: solid rgba(102,51,153, 0.6) ; /*REBECCAPURPLE*/
+
+}
+
+/* Skills and Knowledge */
+.skills-knowledge
+{
+  border: solid rgb(112,128,144) ; /*SLATEGREY*/
+
+}
+
+
+/* Achievemments */
+.achievements
+{
+  border: solid rgb(128,128,0) ; /*OLIVE*/
+
+}
