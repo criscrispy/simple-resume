@@ -1,31 +1,16 @@
 body {
   background-color: azure;
+  font-size: 0.875rem;
 }
 
-a.navbar-brand {
-  color: black;
-  margin: 0px 0px;
+ul {
+  margin-bottom: 0rem;
 }
 
-.carousel-inner img {
-  width: 30em;
-  height: 19em;
-  /* height: inherit; */
-  max-width: 100%;
-  max-height: 100%;
+.card-body {
+  padding: 0.7rem;
 }
 
-#Profile-pic-2 {
-  width: 12em;
-}
-
-/* #main-profile-pic {
-  width:14em;
-  height:14em;
-  size:round;
-} */
-
-/* Personal info shadow inclded as a bootstrap class - shadow in html */
 
 /*.css-shadow1 - used for about-me section div only --
 : Career and journey so far  */
@@ -54,7 +39,7 @@ a.navbar-brand {
 }
 
 
-/*.css-shadow-3 - used for child divs in the work experience, education */
+/*.css-shadow-3 - used for child divs in the Persnal data, work experience, education */
 .css-shadow-3:hover{
   -ms-transform: scale(1.01) ; /* IE 9 */
   -webkit-transform: scale(1.01) ; /* Safari 3-8 */
