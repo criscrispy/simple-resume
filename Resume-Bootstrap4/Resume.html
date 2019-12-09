@@ -27,20 +27,23 @@
 </head>
 <body>
   <header>
-      <div class="container my-0">
+      <div class="container">
+        <div class="row col-md-12 col-lg-10 mx-auto">
         <h3 class="text-info mb-1">C.C.A</h3>
+        </div>
       </div>
   </header>
   <section class="container mt-1 mb-3">
+    <!-- Personal Data -->
     <!-- Row 1 -->
-      <div class="row bg-info rounded shadow">
+      <div class="row bg-info rounded css-shadow-3 col-md-12 col-lg-10 px-0 mx-auto">
         <!-- Item 1 -->
           <div class="col-md-4 order-md-2 mt-2 align-self-center">
               <img src="Linkedin profile pic.jpg" class="rounded-circle mx-auto d-block align-self-center" alt="Responsive image">
           </div>
           <!--End of Item 1  -->
 
-          <!-- Item 3 -->
+          <!-- Item 2 -->
           <!--Using paragraphs and spans-->
           <div class="col-md-8 order-md-1 p-1">
             <div class="card">
@@ -74,30 +77,24 @@
                     <td class="text-info"> Date of Birth:</td>
                     <td class="align-items-center">21st October,1991</td>
                   </tr>
-                  <tr>
-                    <td class="text-info">Phone:</td>
-                    <td>+358 41 7519139</td>
-                  </tr>
-                  <tr>
-                    <td class="text-info">Email:</td>
-                    <td><a href = "mailto: jlcaddy4@gmail.com">jlcaddy4@gmail.com</a></td>
-                  </tr>
-                  <tr>
-                    <td class="text-info">LinkedIn:</td>
-                    <td><a href="https://www.linkedin.com/in/christian-crosby-addy-b1341382">https://www.linkedin.com/in/christian-crosby-addy-b1341382/</a></td>
-                  </tr>
               </table>
+                <div class="social-icons d-flex justify-content-center">
+                  <a href="https://www.linkedin.com/in/christian-crosby-addy-b1341382/"><img src="https://img.icons8.com/plasticine/50/000000/linkedin.png"></a>
+                  <a href="https://github.com/criscrispy"><img src="https://img.icons8.com/ios-filled/40/000000/github.png"></a>
+                </div>
+                </div>
               </div>
             </div>
-          </div>
           <!-- End of Item 2 -->
         </div>
         <!-- End of Row 1 -->
+        <!-- End of Personal Data -->
+
 
   <!-- About me section -->
   <div class="p-1 my-3 mx-auto rounded col-md-12">
       <h5>Career vision and journey so far...</h5>
-      <div class="bg-white border border-danger p-1 rounded mt-1 col-md-11 mx-auto css-shadow-1">
+      <div class="bg-white border border-danger p-1 rounded mt-1 col-md-12  mx-auto css-shadow-1">
           <p class="font-italic mb-0">Having successfully sailed the rough seas of my Bachelor's studies(Russian medium)
            in Information security, climbing and overcoming the tough terrain of a double
            degree Masters program in Security and Cloud computing to working as a customer
@@ -113,12 +110,12 @@
   </div>
 
 <!-- Work experience section -->
-      <div class="bg-light border border-info p-1 my-3 rounded css-shadow-2">
+      <div class="bg-light border border-success p-1 my-3 rounded css-shadow-2">
         <h5>Work Experience</h5>
         <!-- Row 1 - Work Experience -->
-        <div class="row m-2 align-items-start justify-content-around">
+        <div class="row m-1 align-items-start justify-content-around">
             <!-- Item 1 -->
-            <div class="col-md-4 rounded bg-success p-1 mb-2 css-shadow-3">
+            <div class="col-md-4  mb-1 rounded work-ex-item p-1 css-shadow-3">
                   <div class="card">
                     <div class="card-body">
                       <h6 class="card-title">Production specialist at <a href="https://swappie.com/en/">Swappie</a>, Helsinki, Finland</h6>
@@ -133,11 +130,11 @@
               <!-- End of Item 1 -->
 
               <!-- Item 2 -->
-              <div class="col-md-7 bg-success rounded p-1 css-shadow-3">
+              <div class="col-md-7 work-ex-item rounded p-1 css-shadow-3">
                 <div class="card">
                   <div class="card-body">
                     <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a> , Texas, USA.(Remote)</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">Sept. 2018 - April 2019</h6>
+                    <h6 class="card-subtitle text-muted">Sept. 2018 - April 2019</h6>
                     <p>My responsibilities included:</p>
                     <ul>
                       <li>Providing technical support for various products and technologies <br> by solving issues reported by customers in our ticketing system (Zendesk, SalesForce, JIRA)</li>
@@ -155,9 +152,9 @@
 
 
             <!-- Row 2 - Work Experience -->
-        <div class="row m-2 align-items-start justify-content-around">
+        <div class="row m-1 align-items-start justify-content-around">
           <!-- Item 1 -->
-          <div class="rounded bg-success p-1 col-md-5 mb-2 css-shadow-3">
+          <div class="rounded p-1 mb-1 work-ex-item col-md-5 css-shadow-3">
               <div class="card">
                 <div class="card-body">
                   <h6 class="card-title">Editor and translator (Remote) at <a href="https://en.als.ltd/about">Abbyy Language Services</a>, Moscow, Russia (Remote)</h6>
@@ -170,7 +167,7 @@
           <!-- End of Item 1 -->
 
           <!-- Item 2 -->
-          <div class="col-md-6 rounded bg-success p-1 css-shadow-3">
+          <div class="col-md-6 rounded work-ex-item p-1 css-shadow-3">
                 <div class="card">
                   <div class="card-body">
                     <h6 class="card-title">English teacher at 3 Institutions, St. Petersburg, Russia</h6>
@@ -188,13 +185,13 @@
 <!-- End of work experience section -->
 
 
-<!-- Education section section -->
+<!-- Education section -->
   <div class="bg-light border border-danger p-1 my-3 rounded css-shadow-2">
     <h5>Education</h5>
     <!-- Row 1 - Education -->
-    <div class="row m-2 align-items-start justify-content-around">
+    <div class="row m-1 align-items-start justify-content-around">
         <!-- Item 1 -->
-        <div class="col-md-5 rounded bg-secondary p-1 mb-2 css-shadow-3">
+        <div class="col-md-5 mb-1 rounded education-item p-1 css-shadow-3">
               <div class="card">
                 <div class="card-body">
                   <h6 class="card-title">Master's Degree<br>(Double degree scholarship programme)</h6>
@@ -211,14 +208,14 @@
           <!-- End of Item 1 -->
 
           <!-- Item 2 -->
-          <div class="col-md-5 bg-secondary rounded p-1 css-shadow-3">
+          <div class="col-md-5 education-item rounded p-1 css-shadow-3">
             <div class="card">
               <div class="card-body">
                 <h6 class="card-title">Bachelor's Degree in Information Security</h6>
                 <p class="card-title">Master of Science in Computer, Communications and Information Sciences</p>
                 <h7 class="card-subtitle mb-2 text-muted">Sep. 2012 - Jun. 2016</h7>
                 <ul>
-                  <li>The Bonch-Bruevich Saint-Petersburg State University of Telecommunications,<br> St.Petersburg, Russia</li>
+                  <li>The Bonch-Bruevich Saint-Petersburg State University of Telecommunications, St.Petersburg, Russia</li>
                 </ul>
               </div>
             </div>
@@ -231,10 +228,9 @@
 
 
 <!-- Skills and Knowledge section -->
-<div class="bg-light border border-success p-1 my-3 rounded css-shadow-2">
+<div class="bg-light skills-knowledge p-1 my-3 rounded css-shadow-2">
   <h5>Skills and Knowledge</h5>
-  <div class="">
-    <table class="table table-sm table-borderless">
+    <table class="table table-sm">
       <tbody>
         <tr class="justify-content-center">
           <td>IT administration</td>
@@ -270,6 +266,85 @@
 </div>
 <!-- End of Skills and Knowledge section -->
 
+<!-- Volunteering experience section -->
+  <div class="bg-light border border-warning p-1 my-3 rounded css-shadow-2">
+    <h5>Volunteering experience</h5>
+    <!-- Row 1 - Volunteering experience section -->
+    <div class="row m-1 align-items-start justify-content-around">
+        <!-- Item 1 -->
+        <div class="col-md-5 mb-1 rounded p-1 css-shadow-3 volun-ex-item">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Member of Info team at Hack Junction, Aalto Uni.</h6>
+                  <h7 class="card-subtitle mb-2 text-muted">Nov. 2017</h7>
+                  <p>Welcoming and registering participants and company delegates at Hackathon events.
+                    First line support for participants with tech-related issues especially for Russian-
+                    speaking individuals.</p>
+                </div>
+              </div>
+          </div>
+          <!-- End of Item 1 -->
+
+          <!-- Item 2 -->
+          <div class="col-md-5 rounded p-1 css-shadow-3 volun-ex-item">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Learning committee supervisor (Community of International St. Petersburg, Russia</h6>
+                <h7 class="card-subtitle mb-2 text-muted">Feb. 2014 - March. 2015</h7>
+                <ul>
+                  <li>Improved International relations.</li>
+                  <li>Organized English lessons for Students.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+          <!--End of Item 2  -->
+          <!-- End of Row 1 - Volunteering experience section -->
+  </div>
+<!-- End of Volunteering experience section  -->
+
+<!-- Projects section -->
+<div class="bg-light projects p-1 my-3 rounded css-shadow-2">
+  <h5>Projects</h5>
+    <table class="table table-sm text-center">
+      <tbody>
+        <tr>
+          <td>Javascript Tennis Game/Demo available on <a href="https://criscrispy.github.io/TENNIS-GAME-IN-JAVASCRIPT-AND-HTML/">pages.github.com</a> and code <a href="https://github.com/criscrispy/TENNIS-GAME-IN-JAVASCRIPT-AND-HTML">here</a></td>
+        </tr>
+        <tr>
+          <td>Javascript Gamestore Available on <a href="https://calm-mountain-93740.herokuapp.com">Heroku.com</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End of Projects section -->
+
+<!-- Achievements section -->
+<div class="bg-light achievements p-1 my-3 rounded css-shadow-2">
+  <h5>Achievements</h5>
+    <table class="table table-sm">
+      <tbody>
+        <tr>
+          <td>Jan 2018</td>
+          <td><a href="https://goo.gl/VLYKh4">"Introducing Ghana"</a> presentation: "Get to know Africa" event at Aalto</td>
+        </tr>
+        <tr>
+          <td>Nov 2017</td>
+          <td class="text-break">Pitching competition in Reboot Finland(SLUSH 2017)/<a href="https://goo.gl/rmZju6">my pitch with teammate(40:05 - 44:38)</a>/Task Management application(VELI) for the FDF/Suomi100</td>
+        </tr>
+        <tr>
+          <td>April,October 2017</td>
+          <td>Co-author of a research document on Information security published in
+            <a href="http://ieeexplore.ieee.org/document/8071333/">ieee xplore Digital Library</a> and
+            <a href="https://www.fruct.org/publications/fruct20/files/Pan.pdf">FRUCT 2017</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End of Skills and Knowledge section -->
 
   </section>
 </body>
