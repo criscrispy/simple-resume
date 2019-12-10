@@ -72,7 +72,7 @@ ul {
 
 /* Education */
 .education-item {
-  background-color: rgba(178,34,34, 0.6) /*FIREBRICK*/
+  background-color: rgba(178,34,34, 0.6); /*FIREBRICK*/
 }
 
 /* Projects */
@@ -85,7 +85,7 @@ ul {
 /* Skills and Knowledge */
 .skills-knowledge
 {
-  border: solid rgb(112,128,144) ; /*SLATEGREY*/
+  border: solid rgb(112,128,144); /*SLATEGREY*/
 
 }
 
